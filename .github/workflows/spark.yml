@@ -30,9 +30,9 @@ jobs:
     - name: Install gdown
       run: pip install gdown
     - name: Download dataset from Google Drive
-      run: gdown --id 1tpNENNLqiAYJECJoo8bdsG1tDpDFeduV -O crime.csv
+      run: wget -O crime.csv ${{github.event.client_payload.dataseturl}}
     - name: Download crime.py
-    - run: wget -O crime.py https://raw.githubusercontent.com/IngEnigma/Spark_Labs/refs/heads/main/crime.py
+    - run: wget -O crime.py ${{github.event.client_payload.codeurl}}
     - run: ls -la
     - run: spark-submit --master local crime.py crime.csv
     - run: ls -la
