@@ -2,11 +2,16 @@ import streamlit as st
 import requests
 import pandas  as pd
 
-def post_spark_job(user, repo, job, token):
+def post_spark_job(user, repo, job, token, codeurl, dataseturl):
+
     url = 'https://api.github.com/repos/' + user + '/' + repo + '/dispatches'
 
     payload = {
-      "event_type": job
+     "event_type": job,
+     "client_payload": {
+        "codeurl": codeurl,
+        "dataseturl": dataseturl
+     }
     }
 
     headers = {
@@ -39,14 +44,15 @@ github_user  =  st.text_input('Github user', value='IngEnigma')
 github_repo  =  st.text_input('Github repo', value='StreamlitSpark')
 spark_job    =  st.text_input('Spark job', value='spark')
 github_token =  st.text_input('Github token', value='')
+code_url     =  st.text_input('Code URL', value='')
+dataset_url  =  st.text_input('Dataset URL', value='')
 
 if st.button("POST spark submit"):
-    post_spark_job(github_user, github_repo, spark_job, github_token)
-
+   post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
 st.header("spark-submit results")
 
-url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/adsoftsito/bigdata/refs/heads/main/results/part-00000-b93e7f80-e363-46c1-8d4f-795a4007b140-c000.json')
+url_results=  st.text_input('URL results', value='')
 
 if st.button("GET spark results"):
     get_spark_results(url_results)
