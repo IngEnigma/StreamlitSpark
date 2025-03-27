@@ -22,7 +22,6 @@ if __name__ == "__main__":
 
     df_crimes.createOrReplaceTempView("crimes")
 
-    # Consulta y guardado de resultados
     query = """SELECT DR_NO, report_date, victim_age, victim_sex, `Crm Cd Desc` 
                FROM crimes WHERE victim_sex = 'M' 
                ORDER BY report_date"""
