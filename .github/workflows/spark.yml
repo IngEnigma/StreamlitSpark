@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
   repository_dispatch:
     types: [spark]
-
+  workflow_dispatch:
 jobs:
   spark:
     runs-on: ubuntu-latest
@@ -35,7 +35,6 @@ jobs:
     - run: spark-submit --master local crime.py crime.csv
     - run: ls -la
     - run: ls results  
-    
     - name: GIT commit and push docs
       env: 
         CI_COMMIT_MESSAGE: save spark results
