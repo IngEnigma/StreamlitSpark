@@ -29,9 +29,9 @@ jobs:
         hadoop-version: '3'
     - run: spark-submit --version
     - name: Download dataset
-      run: wget -O crime.csv https://media.githubusercontent.com/media/IngEnigma/StreamlitSparkUtils/refs/heads/master/crime.csv
+      run: wget -O crime.csv ${{github.event.client_payload.dataseturl}}
     - name: Download crime.py
-      run: wget -O crime.py https://raw.githubusercontent.com/IngEnigma/StreamlitSparkUtils/refs/heads/master/crime.py
+      run: wget -O crime.py ${{github.event.client_payload.codeurl}}
     - run: ls -la
     - run: spark-submit --master local crime.py crime.csv
     - run: ls -la
