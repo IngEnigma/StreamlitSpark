@@ -27,8 +27,6 @@ jobs:
         spark-version: '3.5.3'
         hadoop-version: '3'
     - run: spark-submit --version
-    - name: Install gdown
-      run: pip install gdown
     - name: Download dataset
       run: wget -O crime.csv https://media.githubusercontent.com/media/IngEnigma/StreamlitSparkUtils/refs/heads/master/crime.csv
     - name: Download crime.py
