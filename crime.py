@@ -18,18 +18,17 @@ if __name__ == "__main__":
     df_crimes = df_crimes.withColumnRenamed("Vict Age", "victim_age") \
                          .withColumnRenamed("Vict Sex", "victim_sex") \
                          .withColumnRenamed("Vict Descent", "victim_descent") \
-                         .withColumnRenamed("Date Rptd", "report_date") \
-                         .widhColumnRenamed("Crm Cd Desc", "crm_cd_desc")
+                         .withColumnRenamed("Date Rptd", "report_date")
 
     df_crimes.createOrReplaceTempView("crimes")
 
-    query = """SELECT DR_NO, report_date, victim_age, victim_sex, crm_cd_desc 
+    query = """SELECT DR_NO, report_date, victim_age, victim_sex, `Crm Cd Desc` 
                FROM crimes WHERE victim_sex = 'M' 
                ORDER BY report_date"""
     df_male_crimes = spark.sql(query)
     df_male_crimes.write.json("results/male_crimes", mode="overwrite")
 
-    query = '''SELECT DR_NO, report_date, victim_age, victim_sex, crm_cd_desc 
+    query = '''SELECT DR_NO, report_date, victim_age, victim_sex, `Crm Cd Desc` 
                FROM crimes WHERE report_date BETWEEN '2019-01-01' AND '2020-12-31' 
                ORDER BY report_date'''
     df_crimes_2019_2020 = spark.sql(query)
@@ -41,7 +40,7 @@ if __name__ == "__main__":
     df_crimes_by_area = spark.sql(query)
     df_crimes_by_area.write.json("results/crimes_by_area", mode="overwrite")
 
-    query = '''SELECT DR_NO, report_date, victim_age, victim_sex, crm_cd_desc 
+    query = '''SELECT DR_NO, report_date, victim_age, victim_sex, `Crm Cd Desc` 
                FROM crimes WHERE victim_age BETWEEN 18 AND 30 
                ORDER BY victim_age'''
     df_young_adults_crimes = spark.sql(query)
