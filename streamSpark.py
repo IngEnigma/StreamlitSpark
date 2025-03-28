@@ -36,9 +36,9 @@ def get_spark_results(url_results):
     else:
         st.write(response)
 
-st.title("Spark & streamlit")
+st.title("BigData")
 
-st.header("spark-submit Job")
+st.header("Submit Spark Job")
 
 github_user  =  st.text_input('Github user', value='IngEnigma')
 github_repo  =  st.text_input('Github repo', value='StreamlitSpark')
@@ -47,10 +47,10 @@ github_token =  st.text_input('Github token', value='')
 code_url     =  st.text_input('Code URL', value='')
 dataset_url  =  st.text_input('Dataset URL', value='')
 
-if st.button("POST spark submit"):
+if st.button("POST Spark Submit"):
    post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
-st.header("GET Sark Result")
+st.header("GET Spark Result")
 
 url_results=  st.text_input('URL results', value='')
 
