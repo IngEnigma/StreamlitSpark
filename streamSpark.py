@@ -31,10 +31,17 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
 def get_spark_results(url_results):
     response = requests.get(url_results)
 
-    if  (response.status_code ==  200):
-        st.write(response.json())
+    if response.status_code == 200:
+       
+        json_lines = response.text.strip().split("\n")
+        data = [json.loads(line) for line in json_lines] 
+
+        data = data[:100]
+
+        df = pd.DataFrame(data)
+        st.dataframe(df) 
     else:
-        st.write(response)
+        st.write("Error al obtener datos:", response)
 
 st.title("BigData")
 
@@ -43,7 +50,7 @@ st.header("Submit Spark Job")
 github_user  =  st.text_input('Github user', value='IngEnigma')
 github_repo  =  st.text_input('Github repo', value='StreamlitSpark')
 spark_job    =  st.text_input('Spark job', value='spark')
-github_token =  st.text_input('Github token', value='')
+github_token =  st.text_input('Github token', value='', type='password')
 code_url     =  st.text_input('Code URL', value='')
 dataset_url  =  st.text_input('Dataset URL', value='')
 
