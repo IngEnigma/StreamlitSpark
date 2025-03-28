@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas  as pd
+import json
 
 def post_spark_job(user, repo, job, token, codeurl, dataseturl):
 
@@ -29,19 +30,26 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
     st.write(response)
 
 def get_spark_results(url_results):
+    if not url_results.startswith("http"):
+        st.error("La URL no es válida. Introduce una URL HTTP/HTTPS.")
+        return
+
     response = requests.get(url_results)
 
     if response.status_code == 200:
-       
-        json_lines = response.text.strip().split("\n")
-        data = [json.loads(line) for line in json_lines] 
+        try:
+            json_lines = response.text.strip().split("\n")
+            data = [json.loads(line) for line in json_lines] 
 
-        data = data[:100]
+            data = data[:100]
 
-        df = pd.DataFrame(data)
-        st.dataframe(df) 
+            df = pd.DataFrame(data)
+            st.dataframe(df)
+
+        except json.JSONDecodeError as e:
+            st.error(f"Error al decodificar JSON: {e}")
     else:
-        st.write("Error al obtener datos:", response)
+        st.error(f"Error {response.status_code}: No se pudieron obtener los datos.")
 
 st.title("BigData")
 
