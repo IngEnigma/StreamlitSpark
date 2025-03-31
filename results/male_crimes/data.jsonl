@@ -1,445 +1,50 @@
-{"dr_no":200404028,"report_date":"01/01/2020 12:00:00 AM","victim_age":75,"victim_sex":"M","crm_cd_desc":"VIOLATION OF RESTRAINING ORDER"}
-{"dr_no":201304045,"report_date":"01/01/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200204015,"report_date":"01/01/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201004111,"report_date":"01/03/2020 12:00:00 AM","victim_age":18,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":201104185,"report_date":"01/05/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200404168,"report_date":"01/05/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200704305,"report_date":"01/05/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200104414,"report_date":"01/06/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200804248,"report_date":"01/07/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200404224,"report_date":"01/07/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200904299,"report_date":"01/08/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"SHOPLIFTING - PETTY THEFT ($950 & UNDER)"}
-{"dr_no":200904337,"report_date":"01/08/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201004287,"report_date":"01/08/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201204614,"report_date":"01/09/2020 12:00:00 AM","victim_age":67,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200104740,"report_date":"01/11/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201004433,"report_date":"01/11/2020 12:00:00 AM","victim_age":57,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200504545,"report_date":"01/13/2020 12:00:00 AM","victim_age":43,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
 {"dr_no":200105009,"report_date":"01/14/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":201304810,"report_date":"01/14/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"BUNCO, GRAND THEFT"}
-{"dr_no":200304919,"report_date":"01/15/2020 12:00:00 AM","victim_age":17,"victim_sex":"M","crm_cd_desc":"CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT"}
 {"dr_no":200304905,"report_date":"01/16/2020 12:00:00 AM","victim_age":18,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200504648,"report_date":"01/16/2020 12:00:00 AM","victim_age":31,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200105166,"report_date":"01/17/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201304981,"report_date":"01/17/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201004768,"report_date":"01/19/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
 {"dr_no":200105512,"report_date":"01/22/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER"}
-{"dr_no":201104906,"report_date":"01/22/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201205588,"report_date":"01/23/2020 12:00:00 AM","victim_age":23,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200105553,"report_date":"01/23/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200605026,"report_date":"01/23/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200705069,"report_date":"01/23/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200305385,"report_date":"01/24/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
-{"dr_no":200404972,"report_date":"01/25/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200105753,"report_date":"01/26/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
 {"dr_no":200105855,"report_date":"01/27/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201105123,"report_date":"01/27/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201305499,"report_date":"01/27/2020 12:00:00 AM","victim_age":63,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200605160,"report_date":"01/27/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201005156,"report_date":"01/27/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200105903,"report_date":"01/28/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200106021,"report_date":"01/30/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200106174,"report_date":"01/31/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
 {"dr_no":200106214,"report_date":"02/01/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200305856,"report_date":"02/01/2020 12:00:00 AM","victim_age":59,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200305947,"report_date":"02/02/2020 12:00:00 AM","victim_age":58,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
 {"dr_no":201105477,"report_date":"02/03/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200106382,"report_date":"02/03/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200505402,"report_date":"02/03/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":200306076,"report_date":"02/04/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
 {"dr_no":201305998,"report_date":"02/05/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":201206525,"report_date":"02/05/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200705791,"report_date":"02/05/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"ARSON"}
-{"dr_no":201206913,"report_date":"02/11/2020 12:00:00 AM","victim_age":84,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200106948,"report_date":"02/11/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200505845,"report_date":"02/13/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":201005944,"report_date":"02/14/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200107140,"report_date":"02/14/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
 {"dr_no":201106093,"report_date":"02/16/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - AGGRAVATED ASSAULT"}
-{"dr_no":200606249,"report_date":"02/16/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200706162,"report_date":"02/16/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200806132,"report_date":"02/17/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200906131,"report_date":"02/17/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"}
-{"dr_no":200306914,"report_date":"02/18/2020 12:00:00 AM","victim_age":20,"victim_sex":"M","crm_cd_desc":"THEFT, PERSON"}
-{"dr_no":200506119,"report_date":"02/19/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200206574,"report_date":"02/20/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
-{"dr_no":200107591,"report_date":"02/21/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":201006268,"report_date":"02/21/2020 12:00:00 AM","victim_age":55,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
 {"dr_no":200906344,"report_date":"02/22/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200606633,"report_date":"02/22/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":200606754,"report_date":"02/23/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200606948,"report_date":"02/25/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200107851,"report_date":"02/25/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200606929,"report_date":"02/25/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200206886,"report_date":"02/26/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":200406289,"report_date":"02/27/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200108005,"report_date":"02/28/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200108067,"report_date":"02/28/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200607122,"report_date":"02/28/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200207064,"report_date":"02/29/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":201307365,"report_date":"02/29/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"}
-{"dr_no":200307658,"report_date":"03/01/2020 12:00:00 AM","victim_age":70,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200607223,"report_date":"03/01/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200307848,"report_date":"03/03/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200108465,"report_date":"03/03/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"THEFT FROM PERSON - ATTEMPT"}
 {"dr_no":200706968,"report_date":"03/04/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
-{"dr_no":200706961,"report_date":"03/04/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"DOCUMENT FORGERY / STOLEN FELONY"}
-{"dr_no":200506736,"report_date":"03/04/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200406524,"report_date":"03/05/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200207360,"report_date":"03/05/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
 {"dr_no":200108587,"report_date":"03/06/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":200506823,"report_date":"03/06/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200707077,"report_date":"03/07/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
 {"dr_no":201208715,"report_date":"03/08/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200108858,"report_date":"03/09/2020 12:00:00 AM","victim_age":23,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201107152,"report_date":"03/10/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200308395,"report_date":"03/11/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":201000597,"report_date":"03/12/2020 12:00:00 AM","victim_age":20,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201107291,"report_date":"03/13/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"THEFT, PERSON"}
-{"dr_no":200308559,"report_date":"03/15/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200707474,"report_date":"03/15/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200907646,"report_date":"03/20/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200208008,"report_date":"03/20/2020 12:00:00 AM","victim_age":10,"victim_sex":"M","crm_cd_desc":"CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT"}
-{"dr_no":201107548,"report_date":"03/20/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201107573,"report_date":"03/21/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200507472,"report_date":"03/22/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200807664,"report_date":"03/24/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":201209752,"report_date":"03/24/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":201209671,"report_date":"03/24/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BATTERY POLICE (SIMPLE)"}
 {"dr_no":200608400,"report_date":"03/25/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
-{"dr_no":200109722,"report_date":"03/27/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200807792,"report_date":"03/28/2020 12:00:00 AM","victim_age":67,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200707852,"report_date":"03/29/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200507753,"report_date":"03/30/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200608549,"report_date":"03/31/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200707953,"report_date":"04/03/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)"}
-{"dr_no":200608723,"report_date":"04/05/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"ATTEMPTED ROBBERY"}
-{"dr_no":200708049,"report_date":"04/06/2020 12:00:00 AM","victim_age":63,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200908219,"report_date":"04/07/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201007849,"report_date":"04/07/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":201309336,"report_date":"04/08/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
 {"dr_no":200908386,"report_date":"04/12/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201309324,"report_date":"04/12/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":201309312,"report_date":"04/12/2020 12:00:00 AM","victim_age":58,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200708332,"report_date":"04/12/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200708236,"report_date":"04/12/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200309936,"report_date":"04/13/2020 12:00:00 AM","victim_age":55,"victim_sex":"M","crm_cd_desc":"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"}
-{"dr_no":200908401,"report_date":"04/13/2020 12:00:00 AM","victim_age":20,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200908435,"report_date":"04/14/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200208961,"report_date":"04/14/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200609091,"report_date":"04/15/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200908503,"report_date":"04/16/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200209024,"report_date":"04/16/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201211158,"report_date":"04/17/2020 12:00:00 AM","victim_age":64,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200110714,"report_date":"04/18/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":201008171,"report_date":"04/19/2020 12:00:00 AM","victim_age":58,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201108504,"report_date":"04/19/2020 12:00:00 AM","victim_age":53,"victim_sex":"M","crm_cd_desc":"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"}
 {"dr_no":201211405,"report_date":"04/23/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200209311,"report_date":"04/23/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200110912,"report_date":"04/24/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200110937,"report_date":"04/24/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200111005,"report_date":"04/26/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200908973,"report_date":"04/27/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200408241,"report_date":"04/27/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200808957,"report_date":"04/28/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201108899,"report_date":"04/30/2020 12:00:00 AM","victim_age":50,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200408406,"report_date":"05/01/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":201212039,"report_date":"05/02/2020 12:00:00 AM","victim_age":46,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":201108966,"report_date":"05/03/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201008768,"report_date":"05/03/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200609802,"report_date":"05/03/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200509076,"report_date":"05/05/2020 12:00:00 AM","victim_age":72,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200111409,"report_date":"05/06/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200310961,"report_date":"05/07/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200709060,"report_date":"05/09/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
 {"dr_no":200909538,"report_date":"05/10/2020 12:00:00 AM","victim_age":58,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":201000678,"report_date":"05/10/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"DISCHARGE FIREARMS/SHOTS FIRED"}
-{"dr_no":201008936,"report_date":"05/11/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201212625,"report_date":"05/12/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200111673,"report_date":"05/13/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200311291,"report_date":"05/14/2020 12:00:00 AM","victim_age":67,"victim_sex":"M","crm_cd_desc":"ARSON"}
-{"dr_no":200311349,"report_date":"05/14/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200610337,"report_date":"05/15/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200311458,"report_date":"05/17/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200311443,"report_date":"05/17/2020 12:00:00 AM","victim_age":46,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201213171,"report_date":"05/20/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201100657,"report_date":"05/21/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200709517,"report_date":"05/22/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"SHOPLIFTING - PETTY THEFT ($950 & UNDER)"}
-{"dr_no":200311730,"report_date":"05/22/2020 12:00:00 AM","victim_age":66,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200509768,"report_date":"05/22/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200610476,"report_date":"05/22/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200210563,"report_date":"05/23/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200210625,"report_date":"05/25/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"CHILD NEGLECT (SEE 300 W.I.C.)"}
 {"dr_no":200809961,"report_date":"05/26/2020 12:00:00 AM","victim_age":59,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200210690,"report_date":"05/26/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200112252,"report_date":"05/27/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":201109825,"report_date":"05/27/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":201109818,"report_date":"05/27/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200210741,"report_date":"05/28/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200210771,"report_date":"05/28/2020 12:00:00 AM","victim_age":57,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200210774,"report_date":"05/29/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200100817,"report_date":"05/30/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":201009566,"report_date":"05/30/2020 12:00:00 AM","victim_age":68,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200810095,"report_date":"05/30/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201213865,"report_date":"05/30/2020 12:00:00 AM","victim_age":19,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200910317,"report_date":"05/30/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":200910333,"report_date":"05/31/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200709943,"report_date":"05/31/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200810103,"report_date":"05/31/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
 {"dr_no":200112729,"report_date":"06/02/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
 {"dr_no":200611014,"report_date":"06/03/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200900727,"report_date":"06/03/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"BURGLARY, ATTEMPTED"}
-{"dr_no":201300772,"report_date":"06/04/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201214227,"report_date":"06/06/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"CONTEMPT OF COURT"}
-{"dr_no":201110198,"report_date":"06/08/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201009831,"report_date":"06/09/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"VIOLATION OF COURT ORDER"}
-{"dr_no":200510453,"report_date":"06/09/2020 12:00:00 AM","victim_age":59,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200113162,"report_date":"06/10/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200409650,"report_date":"06/10/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":200113563,"report_date":"06/11/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER"}
-{"dr_no":201214450,"report_date":"06/11/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201217726,"report_date":"06/13/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201009994,"report_date":"06/14/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200211370,"report_date":"06/15/2020 12:00:00 AM","victim_age":46,"victim_sex":"M","crm_cd_desc":"OTHER MISCELLANEOUS CRIME"}
-{"dr_no":200113441,"report_date":"06/15/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200611425,"report_date":"06/15/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201214756,"report_date":"06/15/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":201110500,"report_date":"06/16/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200409857,"report_date":"06/16/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - AGGRAVATED ASSAULT"}
-{"dr_no":200611484,"report_date":"06/16/2020 12:00:00 AM","victim_age":31,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201110511,"report_date":"06/17/2020 12:00:00 AM","victim_age":84,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200911219,"report_date":"06/18/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":201214963,"report_date":"06/18/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"FALSE IMPRISONMENT"}
-{"dr_no":200611530,"report_date":"06/18/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
 {"dr_no":200409977,"report_date":"06/19/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200710724,"report_date":"06/19/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200911240,"report_date":"06/19/2020 12:00:00 AM","victim_age":80,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200710710,"report_date":"06/19/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200510836,"report_date":"06/20/2020 12:00:00 AM","victim_age":64,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200113739,"report_date":"06/21/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200113751,"report_date":"06/21/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200710816,"report_date":"06/22/2020 12:00:00 AM","victim_age":50,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200510885,"report_date":"06/22/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200811000,"report_date":"06/22/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200710837,"report_date":"06/23/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201215278,"report_date":"06/23/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200510954,"report_date":"06/23/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200611960,"report_date":"06/24/2020 12:00:00 AM","victim_age":43,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200113977,"report_date":"06/26/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201110903,"report_date":"06/27/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200611992,"report_date":"06/29/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200211948,"report_date":"06/29/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200313431,"report_date":"06/29/2020 12:00:00 AM","victim_age":16,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201010591,"report_date":"07/01/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200114191,"report_date":"07/01/2020 12:00:00 AM","victim_age":31,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200511331,"report_date":"07/02/2020 12:00:00 AM","victim_age":68,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201111041,"report_date":"07/02/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200711248,"report_date":"07/03/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200511415,"report_date":"07/03/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200711232,"report_date":"07/04/2020 12:00:00 AM","victim_age":64,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200612340,"report_date":"07/08/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200811709,"report_date":"07/08/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200410621,"report_date":"07/09/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201100689,"report_date":"07/09/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200410640,"report_date":"07/09/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - AGGRAVATED ASSAULT"}
-{"dr_no":200212389,"report_date":"07/09/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201111303,"report_date":"07/10/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200212432,"report_date":"07/11/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":200711526,"report_date":"07/12/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200912285,"report_date":"07/13/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200314106,"report_date":"07/13/2020 12:00:00 AM","victim_age":73,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":201111434,"report_date":"07/14/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200314186,"report_date":"07/15/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - AGGRAVATED ASSAULT"}
-{"dr_no":200511859,"report_date":"07/15/2020 12:00:00 AM","victim_age":67,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200115060,"report_date":"07/16/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201111587,"report_date":"07/18/2020 12:00:00 AM","victim_age":58,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201011147,"report_date":"07/19/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200711831,"report_date":"07/20/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200711818,"report_date":"07/20/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BATTERY POLICE (SIMPLE)"}
-{"dr_no":200812148,"report_date":"07/21/2020 12:00:00 AM","victim_age":23,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
 {"dr_no":200711901,"report_date":"07/22/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
 {"dr_no":200115210,"report_date":"07/22/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":200212878,"report_date":"07/22/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200115345,"report_date":"07/25/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200314705,"report_date":"07/25/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)"}
 {"dr_no":200200784,"report_date":"07/26/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"SEXUAL PENETRATION W/FOREIGN OBJECT"}
-{"dr_no":201111870,"report_date":"07/26/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"}
-{"dr_no":200411199,"report_date":"07/26/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200213156,"report_date":"07/28/2020 12:00:00 AM","victim_age":31,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200712181,"report_date":"07/30/2020 12:00:00 AM","victim_age":90,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200213248,"report_date":"07/31/2020 12:00:00 AM","victim_age":44,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200712219,"report_date":"07/31/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
 {"dr_no":201011624,"report_date":"08/02/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201218150,"report_date":"08/02/2020 12:00:00 AM","victim_age":23,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200115767,"report_date":"08/03/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)"}
-{"dr_no":200115863,"report_date":"08/05/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200712518,"report_date":"08/07/2020 12:00:00 AM","victim_age":46,"victim_sex":"M","crm_cd_desc":"EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)"}
-{"dr_no":200115989,"report_date":"08/07/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200411608,"report_date":"08/08/2020 12:00:00 AM","victim_age":53,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200116154,"report_date":"08/10/2020 12:00:00 AM","victim_age":53,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200116155,"report_date":"08/10/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200613758,"report_date":"08/10/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200213616,"report_date":"08/12/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200213659,"report_date":"08/12/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"OTHER MISCELLANEOUS CRIME"}
-{"dr_no":200712714,"report_date":"08/13/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200116351,"report_date":"08/13/2020 12:00:00 AM","victim_age":67,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":201218543,"report_date":"08/14/2020 12:00:00 AM","victim_age":66,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200411761,"report_date":"08/15/2020 12:00:00 AM","victim_age":31,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200116429,"report_date":"08/15/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":201012078,"report_date":"08/15/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200315790,"report_date":"08/16/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":201012129,"report_date":"08/17/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201218749,"report_date":"08/17/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200913738,"report_date":"08/19/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200513283,"report_date":"08/22/2020 12:00:00 AM","victim_age":20,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200813272,"report_date":"08/24/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200100971,"report_date":"08/27/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200914032,"report_date":"08/27/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200914089,"report_date":"08/28/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200117142,"report_date":"08/29/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"VIOLATION OF RESTRAINING ORDER"}
-{"dr_no":200412318,"report_date":"08/30/2020 12:00:00 AM","victim_age":57,"victim_sex":"M","crm_cd_desc":"VIOLATION OF RESTRAINING ORDER"}
-{"dr_no":200214427,"report_date":"08/31/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201012626,"report_date":"08/31/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BATTERY POLICE (SIMPLE)"}
-{"dr_no":200713349,"report_date":"08/31/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200614769,"report_date":"09/01/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200316815,"report_date":"09/03/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200100982,"report_date":"09/04/2020 12:00:00 AM","victim_age":69,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200813815,"report_date":"09/04/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200117410,"report_date":"09/04/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
 {"dr_no":200713537,"report_date":"09/05/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200513779,"report_date":"09/05/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200316919,"report_date":"09/05/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200513856,"report_date":"09/07/2020 12:00:00 AM","victim_age":60,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200117554,"report_date":"09/07/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"SEXUAL PENETRATION W/FOREIGN OBJECT"}
-{"dr_no":200316960,"report_date":"09/07/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200117687,"report_date":"09/09/2020 12:00:00 AM","victim_age":50,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
 {"dr_no":200813909,"report_date":"09/10/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200914600,"report_date":"09/11/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200117868,"report_date":"09/12/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":201113546,"report_date":"09/13/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":201220549,"report_date":"09/13/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200713879,"report_date":"09/15/2020 12:00:00 AM","victim_age":70,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200215163,"report_date":"09/18/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200900829,"report_date":"09/19/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"DISCHARGE FIREARMS/SHOTS FIRED"}
-{"dr_no":200615568,"report_date":"09/19/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200215280,"report_date":"09/20/2020 12:00:00 AM","victim_age":37,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200413043,"report_date":"09/21/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200714092,"report_date":"09/21/2020 12:00:00 AM","victim_age":19,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":201226573,"report_date":"09/22/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200714202,"report_date":"09/24/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":201221352,"report_date":"09/24/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201013439,"report_date":"09/25/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"SHOPLIFTING - PETTY THEFT ($950 & UNDER)"}
-{"dr_no":200317949,"report_date":"09/26/2020 12:00:00 AM","victim_age":72,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201301021,"report_date":"09/26/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201221540,"report_date":"09/27/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":201221569,"report_date":"09/28/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
 {"dr_no":200714415,"report_date":"09/30/2020 12:00:00 AM","victim_age":19,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200814721,"report_date":"09/30/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201013812,"report_date":"09/30/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200514753,"report_date":"10/01/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201114248,"report_date":"10/02/2020 12:00:00 AM","victim_age":63,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200413407,"report_date":"10/02/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201013658,"report_date":"10/02/2020 12:00:00 AM","victim_age":53,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200318373,"report_date":"10/05/2020 12:00:00 AM","victim_age":24,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":201222042,"report_date":"10/05/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200814953,"report_date":"10/06/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200814963,"report_date":"10/07/2020 12:00:00 AM","victim_age":75,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":201013837,"report_date":"10/08/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200815040,"report_date":"10/09/2020 12:00:00 AM","victim_age":43,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
 {"dr_no":200413666,"report_date":"10/10/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200616523,"report_date":"10/10/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200815116,"report_date":"10/11/2020 12:00:00 AM","victim_age":49,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200915810,"report_date":"10/12/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"ARSON"}
-{"dr_no":200318830,"report_date":"10/13/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200616650,"report_date":"10/13/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201013999,"report_date":"10/13/2020 12:00:00 AM","victim_age":23,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200216167,"report_date":"10/14/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200515308,"report_date":"10/15/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200616718,"report_date":"10/15/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200318988,"report_date":"10/16/2020 12:00:00 AM","victim_age":46,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200413939,"report_date":"10/17/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":200319111,"report_date":"10/18/2020 12:00:00 AM","victim_age":20,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200414048,"report_date":"10/20/2020 12:00:00 AM","victim_age":59,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":201222931,"report_date":"10/20/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":201222975,"report_date":"10/20/2020 12:00:00 AM","victim_age":29,"victim_sex":"M","crm_cd_desc":"SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT"}
-{"dr_no":201223306,"report_date":"10/21/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - AGGRAVATED ASSAULT"}
-{"dr_no":200916245,"report_date":"10/21/2020 12:00:00 AM","victim_age":15,"victim_sex":"M","crm_cd_desc":"CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT"}
-{"dr_no":201014290,"report_date":"10/21/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201014348,"report_date":"10/21/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
 {"dr_no":200216525,"report_date":"10/22/2020 12:00:00 AM","victim_age":50,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200119841,"report_date":"10/22/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":200617066,"report_date":"10/23/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200319311,"report_date":"10/23/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
 {"dr_no":201115101,"report_date":"10/26/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200120009,"report_date":"10/26/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200617248,"report_date":"10/26/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"BOMB SCARE"}
-{"dr_no":200815778,"report_date":"10/27/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200319490,"report_date":"10/28/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200414388,"report_date":"10/28/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"SHOPLIFTING - PETTY THEFT ($950 & UNDER)"}
-{"dr_no":201014554,"report_date":"10/29/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
 {"dr_no":200120594,"report_date":"11/04/2020 12:00:00 AM","victim_age":47,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200916925,"report_date":"11/06/2020 12:00:00 AM","victim_age":52,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200320012,"report_date":"11/07/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
-{"dr_no":201224082,"report_date":"11/07/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200617739,"report_date":"11/07/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200715761,"report_date":"11/08/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201224147,"report_date":"11/08/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT"}
-{"dr_no":201224191,"report_date":"11/09/2020 12:00:00 AM","victim_age":4,"victim_sex":"M","crm_cd_desc":"KIDNAPPING - GRAND ATTEMPT"}
 {"dr_no":200414764,"report_date":"11/10/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200516554,"report_date":"11/12/2020 12:00:00 AM","victim_age":59,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200120938,"report_date":"11/12/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200715925,"report_date":"11/13/2020 12:00:00 AM","victim_age":19,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200816473,"report_date":"11/13/2020 12:00:00 AM","victim_age":10,"victim_sex":"M","crm_cd_desc":"CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT"}
-{"dr_no":200516635,"report_date":"11/14/2020 12:00:00 AM","victim_age":75,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200716021,"report_date":"11/15/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"VEHICLE - ATTEMPT STOLEN"}
-{"dr_no":200618049,"report_date":"11/15/2020 12:00:00 AM","victim_age":21,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200716038,"report_date":"11/16/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200121130,"report_date":"11/16/2020 12:00:00 AM","victim_age":65,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200516880,"report_date":"11/19/2020 12:00:00 AM","victim_age":38,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
-{"dr_no":200917480,"report_date":"11/20/2020 12:00:00 AM","victim_age":15,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200415078,"report_date":"11/20/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200320724,"report_date":"11/20/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
 {"dr_no":200217723,"report_date":"11/21/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200618441,"report_date":"11/23/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200121586,"report_date":"11/24/2020 12:00:00 AM","victim_age":63,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200800869,"report_date":"11/24/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200121501,"report_date":"11/24/2020 12:00:00 AM","victim_age":62,"victim_sex":"M","crm_cd_desc":"BATTERY - SIMPLE ASSAULT"}
-{"dr_no":200917649,"report_date":"11/24/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"ROBBERY"}
 {"dr_no":200716365,"report_date":"11/25/2020 12:00:00 AM","victim_age":54,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200917700,"report_date":"11/25/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200121628,"report_date":"11/27/2020 12:00:00 AM","victim_age":34,"victim_sex":"M","crm_cd_desc":"BIKE - STOLEN"}
-{"dr_no":200917798,"report_date":"11/28/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200918010,"report_date":"12/02/2020 12:00:00 AM","victim_age":33,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"}
 {"dr_no":200618785,"report_date":"12/03/2020 12:00:00 AM","victim_age":30,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":201225636,"report_date":"12/03/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200218652,"report_date":"12/04/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200416007,"report_date":"12/04/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"BUNCO, PETTY THEFT"}
-{"dr_no":200415588,"report_date":"12/04/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200817311,"report_date":"12/07/2020 12:00:00 AM","victim_age":27,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
 {"dr_no":200218354,"report_date":"12/08/2020 12:00:00 AM","victim_age":57,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200415745,"report_date":"12/08/2020 12:00:00 AM","victim_age":64,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200517623,"report_date":"12/09/2020 12:00:00 AM","victim_age":42,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200122171,"report_date":"12/09/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200218500,"report_date":"12/11/2020 12:00:00 AM","victim_age":22,"victim_sex":"M","crm_cd_desc":"BRANDISH WEAPON"}
-{"dr_no":200918384,"report_date":"12/12/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"}
-{"dr_no":200817471,"report_date":"12/12/2020 12:00:00 AM","victim_age":35,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":201015988,"report_date":"12/12/2020 12:00:00 AM","victim_age":43,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
-{"dr_no":200717052,"report_date":"12/13/2020 12:00:00 AM","victim_age":51,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":200415956,"report_date":"12/14/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200415944,"report_date":"12/14/2020 12:00:00 AM","victim_age":41,"victim_sex":"M","crm_cd_desc":"VANDALISM - MISDEAMEANOR ($399 OR UNDER)"}
-{"dr_no":200619273,"report_date":"12/15/2020 12:00:00 AM","victim_age":36,"victim_sex":"M","crm_cd_desc":"INTIMATE PARTNER - SIMPLE ASSAULT"}
-{"dr_no":200619310,"report_date":"12/15/2020 12:00:00 AM","victim_age":56,"victim_sex":"M","crm_cd_desc":"OTHER MISCELLANEOUS CRIME"}
 {"dr_no":201016207,"report_date":"12/16/2020 12:00:00 AM","victim_age":39,"victim_sex":"M","crm_cd_desc":"THEFT PLAIN - PETTY ($950 & UNDER)"}
-{"dr_no":200918551,"report_date":"12/17/2020 12:00:00 AM","victim_age":18,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200817693,"report_date":"12/18/2020 12:00:00 AM","victim_age":45,"victim_sex":"M","crm_cd_desc":"THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"}
-{"dr_no":200416173,"report_date":"12/21/2020 12:00:00 AM","victim_age":26,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200518086,"report_date":"12/21/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"SHOPLIFTING - PETTY THEFT ($950 & UNDER)"}
-{"dr_no":200322159,"report_date":"12/23/2020 12:00:00 AM","victim_age":68,"victim_sex":"M","crm_cd_desc":"THEFT OF IDENTITY"}
-{"dr_no":200918760,"report_date":"12/23/2020 12:00:00 AM","victim_age":25,"victim_sex":"M","crm_cd_desc":"THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"}
-{"dr_no":201226985,"report_date":"12/23/2020 12:00:00 AM","victim_age":40,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":201001070,"report_date":"12/25/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"BURGLARY"}
-{"dr_no":200416270,"report_date":"12/25/2020 12:00:00 AM","victim_age":0,"victim_sex":"M","crm_cd_desc":"VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"}
-{"dr_no":200619724,"report_date":"12/27/2020 12:00:00 AM","victim_age":28,"victim_sex":"M","crm_cd_desc":"CRIMINAL THREATS - NO WEAPON DISPLAYED"}
-{"dr_no":200817972,"report_date":"12/28/2020 12:00:00 AM","victim_age":32,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
 {"dr_no":200918961,"report_date":"12/29/2020 12:00:00 AM","victim_age":61,"victim_sex":"M","crm_cd_desc":"TRESPASSING"}
-{"dr_no":200717608,"report_date":"12/29/2020 12:00:00 AM","victim_age":48,"victim_sex":"M","crm_cd_desc":"BURGLARY FROM VEHICLE"}
