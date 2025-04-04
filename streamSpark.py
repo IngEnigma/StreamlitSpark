@@ -87,6 +87,8 @@ if st.button("POST Spark Submit"):
 
 st.header("Migrate Data To Postgresql")
 
-if st.button("POST to FastAPI"):
+if st.button("POST"):
     st.info("Enviando solicitud POST a FastAPI...")
     simple_post_to_fastapi()
+
+st.header("Migrate Data To MongoDb")
