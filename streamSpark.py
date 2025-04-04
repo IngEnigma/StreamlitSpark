@@ -55,6 +55,22 @@ def process_crimes_to_kafka(api_url, jsonl_url):
     except Exception as e:
         st.error(f"Error connecting to API: {str(e)}")
 
+# Función adicional para el nuevo botón POST
+def simple_post_to_fastapi():
+    try:
+        api_url = 'http://localhost:8000/process-data'
+        response = requests.post(api_url)
+        
+        if response.status_code == 200:
+            result = response.json()
+            st.success(f"Success: {result['message']}")
+            st.info(f"Records processed: {result['records_processed']}")
+            st.info(f"Kafka topic: {result['kafka_topic']}")
+        else:
+            st.error(f"Error: {response.status_code} - {response.text}")
+    except Exception as e:
+        st.error(f"Error connecting to API: {str(e)}")
+
 st.title("BigData")
 
 st.header("Submit Spark Job")
@@ -92,3 +108,10 @@ jsonl_url = st.text_input(
 
 if st.button("Process Crimes and Send to Kafka"):
     process_crimes_to_kafka(fastapi_url, jsonl_url)
+
+# Nueva sección para el botón POST simple
+st.header("Migrate Kafka To Producer")
+
+if st.button("POST to FastAPI"):
+    st.info("Enviando solicitud POST a FastAPI...")
+    simple_post_to_fastapi()
