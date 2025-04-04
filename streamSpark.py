@@ -87,31 +87,6 @@ if st.button("POST Spark Submit"):
 
 st.header("Migrate Data To Postgresql")
 
-url_results = st.text_input('Results URL', value='')
-if st.button("Get Spark Results"):
-    get_spark_results(url_results)
-
-st.header("Send Data to Kafka")
-
-# Aquí puedes configurar la URL de tu API FastAPI
-fastapi_url = st.text_input(
-    'FastAPI URL', 
-    value='http://localhost:8000/process-crimes',
-    help="URL del endpoint FastAPI que procesa los datos"
-)
-
-jsonl_url = st.text_input(
-    'JSONL URL', 
-    value='https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl',
-    help="URL del archivo JSONL con los datos a enviar a Kafka"
-)
-
-if st.button("Process Crimes and Send to Kafka"):
-    process_crimes_to_kafka(fastapi_url, jsonl_url)
-
-# Nueva sección para el botón POST simple
-st.header("Migrate Kafka To Producer")
-
 if st.button("POST to FastAPI"):
     st.info("Enviando solicitud POST a FastAPI...")
     simple_post_to_fastapi()
