@@ -65,9 +65,7 @@ dataset_url  =  st.text_input('Dataset URL', value='')
 if st.button("POST Spark Submit"):
    post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
-st.header("GET Spark Result")
+st.header("Migrate Data To Postgresql")
 
-url_results=  st.text_input('URL results', value='')
-
-if st.button("GET spark results"):
+if st.button("Migrate"):
     get_spark_results(url_results)
