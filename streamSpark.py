@@ -27,7 +27,7 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
 # 🔁 Nueva función para llamar al Producer API
 def process_crimes_to_kafka():
     jsonl_url = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
-    api_url = "http://localhost:5000/process-data"  # Cambia si estás usando Docker u otra IP
+    api_url = "https://stunning-space-goggles-x5xxg99pqj929657-5000.app.github.dev/"  # Cambia si estás usando Docker u otra IP
 
     try:
         response = requests.post(api_url, json={"url": jsonl_url})
