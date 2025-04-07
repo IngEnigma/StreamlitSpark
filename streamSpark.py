@@ -24,24 +24,6 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
     st.write("Response code:", response.status_code)
     st.write("Response text:", response.text)
 
-# Función para mostrar resultados desde archivo JSONL
-def get_spark_results(url_results):
-    if not url_results.startswith("http"):
-        st.error("La URL no es válida. Introduce una URL HTTP/HTTPS.")
-        return
-
-    response = requests.get(url_results)
-    if response.status_code == 200:
-        try:
-            json_lines = response.text.strip().split("\n")
-            data = [json.loads(line) for line in json_lines]
-            df = pd.DataFrame(data[:100])
-            st.dataframe(df)
-        except json.JSONDecodeError as e:
-            st.error(f"Error al decodificar JSON: {e}")
-    else:
-        st.error(f"Error {response.status_code}: No se pudieron obtener los datos.")
-
 # 🔁 Nueva función para llamar al Producer API
 def process_crimes_to_kafka():
     jsonl_url = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
