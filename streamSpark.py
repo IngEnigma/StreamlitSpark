@@ -48,30 +48,28 @@ def process_crimes_to_kafka():
 # 🧾 Función para obtener datos de PostgreSQL
 def get_data_from_postgres():
     try:
-        # Asumiendo que tu consumer tiene un endpoint /crimes en el mismo Render
-        consumer_url = "https://kafka-postgres-consumer.onrender.com/crimes"
-        
-        with st.spinner('Obteniendo datos de PostgreSQL...'):
-            response = requests.get(consumer_url)
-            
-            if response.status_code == 200:
-                data = response.json()
-                df = pd.DataFrame(data)
-                
-                st.success("Datos obtenidos correctamente desde PostgreSQL 🐘")
-                st.dataframe(df)
-                
-                # Mostrar métricas básicas
-                st.subheader("📊 Métricas de los datos")
-                col1, col2, col3 = st.columns(3)
-                col1.metric("Total registros", len(df))
-                col2.metric("Edad promedio víctimas", round(df['victim_age'].mean(), 1))
-                col3.metric("Tipos de crimen", df['crm_cd_desc'].nunique())
-                
-            else:
-                st.error(f"❌ Error {response.status_code}: {response.text}")
+        # Establecer la conexión utilizando la configuración en secrets.toml
+        conn = st.connection("neon", type="sql")
+
+        # Definir la consulta SQL que deseas ejecutar
+        query = "SELECT * FROM crimes;"
+
+        # Ejecutar la consulta y obtener los datos en un DataFrame de pandas
+        df = conn.query(query, ttl=600)  # ttl=600 segundos para cachear los resultados
+
+        # Mostrar los datos en la aplicación
+        st.success("Datos obtenidos correctamente desde PostgreSQL 🐘")
+        st.dataframe(df)
+
+        # Mostrar métricas básicas
+        st.subheader("📊 Métricas de los datos")
+        col1, col2, col3 = st.columns(3)
+        col1.metric("Total registros", len(df))
+        col2.metric("Edad promedio víctimas", round(df['victim_age'].mean(), 1))
+        col3.metric("Tipos de crimen", df['crm_cd_desc'].nunique())
+
     except Exception as e:
-        st.error(f"⚠️ Error al conectar con la API: {str(e)}")
+        st.error(f"⚠️ Error al conectar con la base de datos: {str(e)}")
 
 # ===============================
 # UI Streamlit Mejorada
@@ -89,19 +87,19 @@ with tab1:
     github_token = st.text_input('GitHub token', value='', type='password', key='token')
     code_url = st.text_input('Code URL', value='', key='code')
     dataset_url = st.text_input('Dataset URL', value='', key='dataset')
-    
+
     if st.button("🚀 Ejecutar Spark Job", key='spark_btn'):
         post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
 with tab2:
     st.header("📊 Pipeline Kafka → PostgreSQL")
-    
+
     col1, col2 = st.columns(2)
-    
+
     with col1:
         if st.button("🔄 Cargar datos a Kafka", key='kafka_btn'):
             process_crimes_to_kafka()
-    
+
     with col2:
         if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn'):
             get_data_from_postgres()
@@ -110,4 +108,3 @@ with tab3:
     st.header("🛢️ MongoDB Integration")
     st.info("Próximamente...")
     # Aquí puedes añadir la funcionalidad para MongoDB cuando esté lista
-    #get_data_from_postgres()
