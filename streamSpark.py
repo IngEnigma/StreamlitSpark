@@ -97,7 +97,7 @@ with tab2:
     col1, col2 = st.columns(2)
 
     with col1:
-        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn'):
+        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn_postgres'):
             process_crimes_to_kafka()
 
     with col2:
@@ -110,9 +110,9 @@ with tab3:
     col1, col2 = st.columns(2)
 
     with col1:
-        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn'):
+        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn_mongo'):
             process_area_to_kafka()
 
     with col2:
-        if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn'):
+        if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn_mongo'):
             get_data_from_mongo()
