@@ -77,7 +77,7 @@ def get_data_from_postgres():
 
 st.title("🏢 BigData Dashboard - Sistema de Criminalidad")
 
-tab1, tab2, tab3 = st.tabs(["Spark Jobs", "Kafka/PostgreSQL", "MongoDB"])
+tab1, tab2, tab3 = st.tabs(["Spark Jobs", "Kafka/PostgreSQL", "Kafka/MongoBD"])
 
 with tab1:
     st.header("⚡ Submit Spark Job")
