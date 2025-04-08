@@ -86,6 +86,26 @@ def get_data_from_postgres():
     except Exception as e:
         st.error(f"⚠️ Error al conectar con la base de datos: {str(e)}")
 
+# Función para enviar estadísticas de crímenes a Kafka (MongoDB)
+def process_crimes_to_kafka_mongo():
+    producer_url = "https://kafka-mongo-producer.onrender.com/send-crimes"
+    
+    try:
+        with st.spinner('Enviando datos de crímenes a Kafka...'):
+            response = requests.post(producer_url)
+            
+            if response.status_code == 200:
+                result = response.json()
+                st.success(f"✅ Datos enviados correctamente a Kafka!")
+                st.info(f"📊 Mensaje: {result['message']}")
+                st.info(f"📦 Registros enviados: {len(response.text.strip().splitlines())}")
+            else:
+                st.error(f"❌ Error {response.status_code}: {response.text}")
+    except requests.exceptions.RequestException as e:
+        st.error(f"⚠️ Error de conexión: {str(e)}")
+    except Exception as e:
+        st.error(f"⚠️ Error inesperado: {str(e)}")
+
 # Función para obtener datos de MongoDB
 def get_data_from_mongodb(collection_name):
     try:
@@ -163,14 +183,17 @@ with tab1:
         post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
 with tab2:
-    st.header("📊 Pipeline Kafka → PostgreSQL")
+    st.header("📊 Pipeline Kafka → MongoDB")
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🔄 Cargar datos a Kafka", key='kafka_btn2'):
-            process_crimes_to_kafka()
+            process_crimes_to_kafka_mongo()
     with col2:
-        if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn2'):
-            get_data_from_postgres()
+        if st.button("📥 Obtener datos de MongoDB", key='mongo_btn2'):
+            collection_name = st.selectbox("Seleccionar colección", ["crimes", "crime_areas"])
+            df = get_data_from_mongodb(collection_name)
+            if df is not None:
+                st.dataframe(df)
 
 with tab3:
     st.header("🛢️ MongoDB Integration")
@@ -179,7 +202,7 @@ with tab3:
     col1, col2 = st.columns(2)
     with col1:
         if st.button("📤 Enviar datos de crímenes", key='mongo_crimes_btn'):
-            process_crimes_to_kafka()
+            process_crimes_to_kafka_mongo()
     with col2:
         if st.button("📊 Enviar stats por área", key='mongo_stats_btn'):
             process_area_stats_to_kafka()
@@ -211,3 +234,4 @@ with tab3:
     
     st.divider()
     show_mongodb_stats()
+
