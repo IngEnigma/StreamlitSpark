@@ -27,7 +27,7 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
 # 🔁 Función para llamar al Producer API (versión actualizada)
 def process_crimes_to_kafka():
     jsonl_url = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
-    producer_url = "https://kafka-postgres-consumer.onrender.com/send-crimes"  # URL de tu producer en Render
+    producer_url = "https://kafka-postgres-producer.onrender.com/send-crimes"  # URL de tu producer en Render
     
     try:
         with st.spinner('Enviando datos al producer de Kafka...'):
