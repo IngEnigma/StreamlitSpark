@@ -110,6 +110,4 @@ with tab3:
     st.header("🛢️ MongoDB Integration")
     st.info("Próximamente...")
     # Aquí puedes añadir la funcionalidad para MongoDB cuando esté lista
-    get_data_from_postgres()
-
-st.header("Migrate Data To MongoDb")
+    #get_data_from_postgres()
