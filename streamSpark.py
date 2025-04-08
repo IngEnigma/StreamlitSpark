@@ -107,6 +107,14 @@ with tab2:
             get_data_from_postgres()
 
 with tab3:
-    st.header("🛢️ MongoDB Integration")
-    st.info("Próximamente...")
-    # Aquí puedes añadir la funcionalidad para MongoDB cuando esté lista
+    st.header("📊 Pipeline Kafka → MongoDB")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn'):
+            process_area_to_kafka()
+
+    with col2:
+        if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn'):
+            get_data_from_mongo()
