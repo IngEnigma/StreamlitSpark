@@ -1,5 +1,3 @@
-puedes ahora completar esto para el mongo porfa
-
 import streamlit as st
 import requests
 import pandas as pd
