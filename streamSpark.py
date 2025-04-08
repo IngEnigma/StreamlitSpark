@@ -24,63 +24,92 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
     st.write("Response code:", response.status_code)
     st.write("Response text:", response.text)
 
-# 🔁 Nueva función para llamar al Producer API
+# 🔁 Función para llamar al Producer API (versión actualizada)
 def process_crimes_to_kafka():
     jsonl_url = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
-    api_url = "https://stunning-space-goggles-x5xxg99pqj929657-5000.app.github.dev/"  # Cambia si estás usando Docker u otra IP
-
+    producer_url = "https://kafka-postgres-consumer.onrender.com/send-crimes"  # URL de tu producer en Render
+    
     try:
-        response = requests.post(api_url, json={"url": jsonl_url})
-        if response.status_code == 200:
-            result = response.json()
-            st.success(f"✅ {result['message']}")
-            st.info(f"📦 Registros procesados: {result['records_processed']}")
-            st.info(f"🧵 Tópico Kafka: {result['kafka_topic']}")
-        else:
-            st.error(f"❌ Error {response.status_code}: {response.text}")
+        with st.spinner('Enviando datos al producer de Kafka...'):
+            response = requests.post(producer_url)
+            
+            if response.status_code == 200:
+                result = response.json()
+                st.success(f"✅ Datos enviados correctamente a Kafka!")
+                st.info(f"📊 Mensaje: {result['message']}")
+                st.info(f"📦 Registros enviados: {len(response.text.strip().splitlines())}")
+            else:
+                st.error(f"❌ Error {response.status_code}: {response.text}")
+    except requests.exceptions.RequestException as e:
+        st.error(f"⚠️ Error de conexión: {str(e)}")
     except Exception as e:
-        st.error(f"⚠️ Error al conectar con el API: {str(e)}")
+        st.error(f"⚠️ Error inesperado: {str(e)}")
 
-# 🧾 Función para hacer SELECT desde PostgreSQL
+# 🧾 Función para obtener datos de PostgreSQL
 def get_data_from_postgres():
     try:
-        url = "http://localhost:8000/crimes"  # Cambia si tu consumer ofrece otro endpoint
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            data = response.json()
-            df = pd.DataFrame(data)
-            st.success("Datos obtenidos correctamente desde la DB 🐘")
-            st.dataframe(df)
-        else:
-            st.error(f"❌ Error {response.status_code}: {response.text}")
+        # Asumiendo que tu consumer tiene un endpoint /crimes en el mismo Render
+        consumer_url = "https://kafka-postgres-consumer.onrender.com/crimes"
+        
+        with st.spinner('Obteniendo datos de PostgreSQL...'):
+            response = requests.get(consumer_url)
+            
+            if response.status_code == 200:
+                data = response.json()
+                df = pd.DataFrame(data)
+                
+                st.success("Datos obtenidos correctamente desde PostgreSQL 🐘")
+                st.dataframe(df)
+                
+                # Mostrar métricas básicas
+                st.subheader("📊 Métricas de los datos")
+                col1, col2, col3 = st.columns(3)
+                col1.metric("Total registros", len(df))
+                col2.metric("Edad promedio víctimas", round(df['victim_age'].mean(), 1))
+                col3.metric("Tipos de crimen", df['crm_cd_desc'].nunique())
+                
+            else:
+                st.error(f"❌ Error {response.status_code}: {response.text}")
     except Exception as e:
-        st.error(f"⚠️ Error al conectar con el API: {str(e)}")
+        st.error(f"⚠️ Error al conectar con la API: {str(e)}")
 
 # ===============================
-# UI Streamlit
+# UI Streamlit Mejorada
 # ===============================
 
-st.title("BigData Dashboard")
+st.title("🏢 BigData Dashboard - Sistema de Criminalidad")
 
-st.header("Submit Spark Job")
-github_user  = st.text_input('Github user', value='IngEnigma')
-github_repo  = st.text_input('Github repo', value='StreamlitSpark')
-spark_job    = st.text_input('Spark job', value='spark')
-github_token = st.text_input('Github token', value='', type='password')
-code_url     = st.text_input('Code URL', value='')
-dataset_url  = st.text_input('Dataset URL', value='')
+tab1, tab2, tab3 = st.tabs(["Spark Jobs", "Kafka/PostgreSQL", "MongoDB"])
 
-if st.button("POST Spark Submit"):
-    post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
+with tab1:
+    st.header("⚡ Submit Spark Job")
+    github_user = st.text_input('GitHub user', value='IngEnigma', key='user')
+    github_repo = st.text_input('GitHub repo', value='StreamlitSpark', key='repo')
+    spark_job = st.text_input('Spark job name', value='spark', key='job')
+    github_token = st.text_input('GitHub token', value='', type='password', key='token')
+    code_url = st.text_input('Code URL', value='', key='code')
+    dataset_url = st.text_input('Dataset URL', value='', key='dataset')
+    
+    if st.button("🚀 Ejecutar Spark Job", key='spark_btn'):
+        post_spark_job(github_user, github_repo, spark_job, github_token, code_url, dataset_url)
 
-st.header("Migrate Data To Postgresql")
+with tab2:
+    st.header("📊 Pipeline Kafka → PostgreSQL")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if st.button("🔄 Cargar datos a Kafka", key='kafka_btn'):
+            process_crimes_to_kafka()
+    
+    with col2:
+        if st.button("📥 Obtener datos de PostgreSQL", key='pg_btn'):
+            get_data_from_postgres()
 
-if st.button("POST a Kafka API"):
-    st.info("📤 Enviando archivo JSONL al productor Kafka...")
-    process_crimes_to_kafka()
-
-if st.button("GET data from DB"):
+with tab3:
+    st.header("🛢️ MongoDB Integration")
+    st.info("Próximamente...")
+    # Aquí puedes añadir la funcionalidad para MongoDB cuando esté lista
     get_data_from_postgres()
 
 st.header("Migrate Data To MongoDb")
