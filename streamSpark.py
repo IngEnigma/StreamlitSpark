@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import sqlalchemy
 import requests
 
 GITHUB_USER_DEFAULT = "IngEnigma"
