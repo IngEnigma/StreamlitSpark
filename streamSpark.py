@@ -6,7 +6,7 @@ import requests
 
 JSONL_URL = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
 PRODUCER_URL = "https://kafka-postgres-producer.onrender.com/send-crimes"
-PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-areas"
+PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-area"
 GITHUB_REPO_DEFAULT = "Streamlit_Spark"
 GITHUB_USER_DEFAULT = "IngEnigma"
 COLLECTION_NAME = "BigData"
