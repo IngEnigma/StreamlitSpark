@@ -1,3 +1,4 @@
+from pymongo import MongoClient
 import streamlit as st
 import pandas as pd
 import sqlalchemy
@@ -5,6 +6,7 @@ import requests
 
 JSONL_URL = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
 PRODUCER_URL = "https://kafka-postgres-producer.onrender.com/send-crimes"
+PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-areas"
 GITHUB_REPO_DEFAULT = "Streamlit_Spark"
 GITHUB_USER_DEFAULT = "IngEnigma"
 COLLECTION_NAME = "BigData"
@@ -63,7 +65,6 @@ def get_data_from_postgres():
         st.error(f"⚠️ Error al conectar con la base de datos: {str(e)}")
 
 def process_area_to_kafka():
-    PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-areas"
     try:
         with st.spinner('🚀 Enviando datos de áreas al producer de Kafka...'):
             response = requests.post(PRODUCER_AREA_URL)
@@ -80,7 +81,7 @@ def process_area_to_kafka():
 def get_data_from_mongo():
     try:
         with st.spinner("📡 Conectando a MongoDB..."):
-            client = MongoClient(MONGO_URI)
+            client = MongoClient(st.secrets["mongo"]["uri"])
             collection = client[DB_NAME][COLLECTION_NAME]
             data = list(collection.find())
 
