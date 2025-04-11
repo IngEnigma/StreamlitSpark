@@ -16,7 +16,7 @@ CONFIG = {
 def send_request(url, headers, payload):
     try:
         response = requests.post(url, json=payload, headers=headers)
-        response.raise_for_status()  # Lanzar un error si el status no es 2xx
+        response.raise_for_status()  
         return response.json(), None
     except requests.RequestException as e:
         return None, str(e)
