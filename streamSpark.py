@@ -81,7 +81,7 @@ def process_area_to_kafka():
 def get_data_from_mongo():
     try:
         with st.spinner("📡 Conectando a MongoDB..."):
-            client = MongoClient(st.secrets["mongo"]["uri"])
+            client = MongoClient(st.secrets["mongodb"]["uri"])
             collection = client[DB_NAME][COLLECTION_NAME]
             data = list(collection.find())
 
