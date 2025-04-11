@@ -1,16 +1,25 @@
 from pymongo import MongoClient
 import streamlit as st
 import pandas as pd
-import sqlalchemy
 import requests
 
-JSONL_URL = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
-PRODUCER_URL = "https://kafka-postgres-producer.onrender.com/send-crimes"
-PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-areas"
-GITHUB_REPO_DEFAULT = "Streamlit_Spark"
-GITHUB_USER_DEFAULT = "IngEnigma"
-COLLECTION_NAME = "BigData"
-DB_NAME = "BigData"
+CONFIG = {
+    "JSONL_URL": "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl",
+    "PRODUCER_URL": "https://kafka-postgres-producer.onrender.com/send-crimes",
+    "PRODUCER_AREA_URL": "https://kafka-mongo-producer.onrender.com/send-areas",
+    "GITHUB_REPO_DEFAULT": "Streamlit_Spark",
+    "GITHUB_USER_DEFAULT": "IngEnigma",
+    "COLLECTION_NAME": "BigData",
+    "DB_NAME": "BigData"
+}
+
+def send_request(url, headers, payload):
+    try:
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()  # Lanzar un error si el status no es 2xx
+        return response.json(), None
+    except requests.RequestException as e:
+        return None, str(e)
 
 def post_spark_job(user, repo, job, token, codeurl, dataseturl):
     url = f'https://api.github.com/repos/{user}/{repo}/dispatches'
@@ -27,25 +36,25 @@ def post_spark_job(user, repo, job, token, codeurl, dataseturl):
         }
     }
 
-    response = requests.post(url, json=payload, headers=headers)
     st.write(f"📡 Request: {url}")
     st.write("📦 Payload:", payload)
-    st.write("📬 Código de respuesta:", response.status_code)
-    st.write("📬 Texto de respuesta:", response.text)
+    
+    result, error = send_request(url, headers, payload)
+    
+    if error:
+        st.write(f"❌ Error: {error}")
+    else:
+        st.success("✅ Trabajo de Spark enviado correctamente!")
+        st.info(f"📊 Mensaje: {result['message']}")
 
 def process_crimes_to_kafka():
-    try:
-        with st.spinner('🚀 Enviando datos al producer de Kafka...'):
-            response = requests.post(PRODUCER_URL)
-
-            if response.ok:
-                result = response.json()
-                st.success("✅ Datos enviados correctamente a Kafka!")
-                st.info(f"📊 Mensaje: {result['message']}")
-            else:
-                st.error(f"❌ Error {response.status_code}: {response.text}")
-    except requests.RequestException as e:
-        st.error(f"⚠️ Error de conexión: {str(e)}")
+    st.spinner('🚀 Enviando datos al producer de Kafka...')
+    result, error = send_request(CONFIG["PRODUCER_URL"], {}, {})
+    if error:
+        st.error(f"❌ Error: {error}")
+    else:
+        st.success("✅ Datos enviados correctamente a Kafka!")
+        st.info(f"📊 Mensaje: {result['message']}")
 
 def get_data_from_postgres():
     try:
@@ -65,24 +74,19 @@ def get_data_from_postgres():
         st.error(f"⚠️ Error al conectar con la base de datos: {str(e)}")
 
 def process_area_to_kafka():
-    try:
-        with st.spinner('🚀 Enviando datos de áreas al producer de Kafka...'):
-            response = requests.post(PRODUCER_AREA_URL)
-
-            if response.ok:
-                result = response.json()
-                st.success("✅ Datos de áreas enviados correctamente a Kafka!")
-                st.info(f"📊 Mensaje: {result['message']}")
-            else:
-                st.error(f"❌ Error {response.status_code}: {response.text}")
-    except requests.RequestException as e:
-        st.error(f"⚠️ Error de conexión: {str(e)}")
+    st.spinner('🚀 Enviando datos de áreas al producer de Kafka...')
+    result, error = send_request(CONFIG["PRODUCER_AREA_URL"], {}, {})
+    if error:
+        st.error(f"❌ Error: {error}")
+    else:
+        st.success("✅ Datos de áreas enviados correctamente a Kafka!")
+        st.info(f"📊 Mensaje: {result['message']}")
 
 def get_data_from_mongo():
     try:
         with st.spinner("📡 Conectando a MongoDB..."):
             client = MongoClient(st.secrets["mongodb"]["uri"])
-            collection = client[DB_NAME][COLLECTION_NAME]
+            collection = client[CONFIG["DB_NAME"]][CONFIG["COLLECTION_NAME"]]
             data = list(collection.find())
 
             if not data:
@@ -114,10 +118,9 @@ tab1, tab2, tab3 = st.tabs(["Spark Jobs", "Kafka/PostgreSQL", "Kafka/MongoDB"])
 
 with tab1:
     st.header("⚡ Submit Spark Job")
-
     with st.form("spark_form"):
-        github_user = st.text_input("GitHub user", value=GITHUB_USER_DEFAULT)
-        github_repo = st.text_input("GitHub repo", value=GITHUB_REPO_DEFAULT)
+        github_user = st.text_input("GitHub user", value=CONFIG["GITHUB_USER_DEFAULT"])
+        github_repo = st.text_input("GitHub repo", value=CONFIG["GITHUB_REPO_DEFAULT"])
         spark_job = st.text_input("Spark job name", value="spark")
         github_token = st.text_input("GitHub token", value="", type="password")
         code_url = st.text_input("Code URL")
@@ -129,7 +132,7 @@ with tab1:
 with tab2:
     st.header("📊 Pipeline Kafka → PostgreSQL")
     col1, col2 = st.columns(2)
-    
+
     with col1:
         if st.button("🔄 Cargar datos a Kafka", key="kafka_crime"):
             process_crimes_to_kafka()
