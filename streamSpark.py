@@ -3,10 +3,12 @@ import pandas as pd
 import sqlalchemy
 import requests
 
-GITHUB_USER_DEFAULT = "IngEnigma"
-GITHUB_REPO_DEFAULT = "Streamlit_Spark"
-PRODUCER_URL = "https://kafka-postgres-producer.onrender.com/send-crimes"
 JSONL_URL = "https://raw.githubusercontent.com/IngEnigma/StreamlitSpark/refs/heads/master/results/male_crimes/data.jsonl"
+PRODUCER_URL = "https://kafka-postgres-producer.onrender.com/send-crimes"
+GITHUB_REPO_DEFAULT = "Streamlit_Spark"
+GITHUB_USER_DEFAULT = "IngEnigma"
+COLLECTION_NAME = "BigData"
+DB_NAME = "BigData"
 
 def post_spark_job(user, repo, job, token, codeurl, dataseturl):
     url = f'https://api.github.com/repos/{user}/{repo}/dispatches'
@@ -61,10 +63,49 @@ def get_data_from_postgres():
         st.error(f"⚠️ Error al conectar con la base de datos: {str(e)}")
 
 def process_area_to_kafka():
-    st.warning("⚠️ Función no implementada aún: process_area_to_kafka()")
+    PRODUCER_AREA_URL = "https://kafka-mongo-producer.onrender.com/send-areas"
+    try:
+        with st.spinner('🚀 Enviando datos de áreas al producer de Kafka...'):
+            response = requests.post(PRODUCER_AREA_URL)
+
+            if response.ok:
+                result = response.json()
+                st.success("✅ Datos de áreas enviados correctamente a Kafka!")
+                st.info(f"📊 Mensaje: {result['message']}")
+            else:
+                st.error(f"❌ Error {response.status_code}: {response.text}")
+    except requests.RequestException as e:
+        st.error(f"⚠️ Error de conexión: {str(e)}")
 
 def get_data_from_mongo():
-    st.warning("⚠️ Función no implementada aún: get_data_from_mongo()")
+    try:
+        with st.spinner("📡 Conectando a MongoDB..."):
+            client = MongoClient(MONGO_URI)
+            collection = client[DB_NAME][COLLECTION_NAME]
+            data = list(collection.find())
+
+            if not data:
+                st.warning("⚠️ No se encontraron datos en MongoDB.")
+                return
+
+            df = pd.DataFrame(data)
+            if '_id' in df.columns:
+                df['_id'] = df['_id'].astype(str)
+
+            st.success("✅ Datos obtenidos correctamente desde MongoDB 🍃")
+            st.dataframe(df)
+
+            st.subheader("📊 Métricas de los datos")
+            st.metric("Total de documentos", len(df))
+            if "crime_details" in df.columns and isinstance(df["crime_details"].iloc[0], dict):
+                crime_df = pd.json_normalize(df["crime_details"])
+                if "victim_age" in crime_df.columns:
+                    st.metric("Edad promedio víctimas", round(crime_df["victim_age"].mean(), 1))
+                if "crm_cd_desc" in crime_df.columns:
+                    st.metric("Tipos de crimen", crime_df["crm_cd_desc"].nunique())
+
+    except Exception as e:
+        st.error(f"❌ Error al obtener datos desde MongoDB: {str(e)}")
 
 st.title("🏢 BigData Dashboard - Sistema de Criminalidad")
 
